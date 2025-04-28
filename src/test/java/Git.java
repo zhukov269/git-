@@ -2,9 +2,10 @@ import com.codeborne.selenide.Configuration;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.*;
+import org.junit.jupiter.api.*;
 
 import com.codeborne.selenide.conditions.Text;
-import org.junit.jupiter.api.*;
+
 
 
 
