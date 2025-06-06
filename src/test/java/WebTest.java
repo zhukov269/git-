@@ -12,8 +12,8 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class WebTest {
-    @BeforeEach
-    void browserSetUp() {
+    @BeforeAll
+    static void  browserSetUp() {
         Configuration.remote="https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.pageLoadStrategy = "eager";
 //        Dtest.tags="WEB"
